@@ -1,0 +1,51 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.Game {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: wheat;
+}
+
+.Game .Header {
+    position: relative;
+    background-color: brown;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vmin;
+    height: 20vmin;
+    font-size: 5vmin;
+    text-align: center;
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.Game .Field {
+    width: 80vmin;
+    height: 80vmin;
+    background-color: #b8af9e;
+    margin: 0 auto;
+    position: relative;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.Game .Field .Tile {
+    margin: 20px 0px 0px 20px;
+    width: 16vmin;
+    height: 16vmin;
+    align-items: center;
+    text-align: center;
+    float: left;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    font-size: 5vmin;
+}
